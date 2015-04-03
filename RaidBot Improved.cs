@@ -37,7 +37,7 @@ namespace RaidBot_Improved
                     StyxWoW.Overlay.AddToast(() => string.Format("RaidBot Paused!"),
                                                TimeSpan.FromSeconds(1.5),
                                                // Foreground Color, Background Color
-                                               Colors.DarkOrange, Colors.Black,
+                                               Colors.Tomato, Colors.SlateGray,
                                                new FontFamily("Segoe UI"));
                     // Make the bot use less resources while paused.
                     TreeRoot.TicksPerSecond = 5;
@@ -47,7 +47,7 @@ namespace RaidBot_Improved
                     StyxWoW.Overlay.AddToast(() => string.Format("RaidBot Resumed!"),
                                                TimeSpan.FromSeconds(1.5),
                                                // Foreground Color, Background Color
-                                               Colors.DarkOrange, Colors.Black,
+                                               Colors.SeaGreen, Colors.SlateGray,
                                                new FontFamily("Segoe UI"));
                     // Kick it back into overdrive!
                     TreeRoot.TicksPerSecond = 30;
